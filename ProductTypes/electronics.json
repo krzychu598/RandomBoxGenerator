@@ -1,0 +1,259 @@
+{   
+    "min_count": 2,
+    "max_count": 20,
+    "products": [
+        {
+            "product_name": "Laptop",
+            "potential_names": [
+                "Dell XPS 13",
+                "MacBook Air M2",
+                "HP Spectre x360",
+                "Asus ROG Zephyrus G14",
+                "Lenovo ThinkPad X1 Carbon",
+                "Microsoft Surface Laptop 4",
+                "Acer Swift 3",
+                "Razer Blade 15",
+                "LG Gram 17",
+                "Samsung Galaxy Book Pro"
+            ],
+            "potential_manufacturer_names": [
+                "Dell",
+                "Apple",
+                "HP",
+                "Asus"
+            ],
+            "min_price": 60000,
+            "max_price": 200000
+        },
+        {
+            "product_name": "Mouse",
+            "potential_names": [
+                "Logitech MX Master 3",
+                "Razer DeathAdder V2",
+                "Microsoft Arc Mouse",
+                "Corsair Dark Core RGB Pro",
+                "SteelSeries Rival 600",
+                "Apple Magic Mouse 2",
+                "Logitech G Pro X Superlight",
+                "HP Omen Vector Wireless Mouse",
+                "Asus ROG Spatha",
+                "Razer Naga Trinity"
+            ],
+            "potential_manufacturer_names": [
+                "Logitech",
+                "Razer",
+                "Microsoft",
+                "Corsair"
+            ],
+            "min_price": 2000,
+            "max_price": 15000
+        },
+        {
+            "product_name": "Headphones",
+            "potential_names": [
+                "Sony WH-1000XM4",
+                "Bose QuietComfort 35 II",
+                "Sennheiser HD 660 S",
+                "Apple AirPods Max",
+                "Jabra Elite 85h",
+                "Beats Studio3 Wireless",
+                "AKG N700NC M2",
+                "Microsoft Surface Headphones 2",
+                "Shure AONIC 50",
+                "Beyerdynamic DT 990 Pro"
+            ],
+            "potential_manufacturer_names": [
+                "Sony",
+                "Bose",
+                "Sennheiser",
+                "Apple"
+            ],
+            "min_price": 10000,
+            "max_price": 70000
+        },
+        {
+            "product_name": "Earphones",
+            "potential_names": [
+                "Sony WF-1000XM4",
+                "Apple AirPods Pro",
+                "Samsung Galaxy Buds Pro",
+                "Jabra Elite 75t",
+                "Bose Sport Earbuds",
+                "Sennheiser Momentum True Wireless 2",
+                "Anker Soundcore Liberty Air 2 Pro",
+                "Google Pixel Buds A-Series",
+                "Beats Powerbeats Pro",
+                "Jaybird Vista 2"
+            ],
+            "potential_manufacturer_names": [
+                "Sony",
+                "Apple",
+                "Samsung",
+                "Jabra"
+            ],
+            "min_price": 5000,
+            "max_price": 30000
+        },
+        {
+            "product_name": "Powerbank",
+            "potential_names": [
+                "Anker PowerCore 10000",
+                "RAVPower Portable Charger 20000mAh",
+                "Aukey 10000mAh Power Bank",
+                "Xiaomi Mi Power Bank 3",
+                "Zendure A6PD Portable Charger",
+                "Mophie PowerStation PD",
+                "Samsung Wireless Power Bank",
+                "Belkin Boost Charge Power Bank",
+                "Duracell Rechargeable Powerbank",
+                "Charmast 26800mAh Power Bank"
+            ],
+            "potential_manufacturer_names": [
+                "Anker",
+                "RAVPower",
+                "Aukey",
+                "Xiaomi"
+            ],
+            "min_price": 1500,
+            "max_price": 10000
+        },
+        {
+            "product_name": "Smartphone",
+            "potential_names": [
+                "iPhone 13 Pro",
+                "Samsung Galaxy S21 Ultra",
+                "Google Pixel 6 Pro",
+                "OnePlus 9 Pro",
+                "Xiaomi Mi 11 Ultra",
+                "Sony Xperia 1 III",
+                "Oppo Find X3 Pro",
+                "Huawei P50 Pro",
+                "Asus ROG Phone 5",
+                "Nokia 8.3 5G"
+            ],
+            "potential_manufacturer_names": [
+                "Apple",
+                "Samsung",
+                "Google",
+                "OnePlus"
+            ],
+            "min_price": 60000,
+            "max_price": 150000
+        },
+        {
+            "product_name": "Charger",
+            "potential_names": [
+                "Anker PowerPort III Nano",
+                "RAVPower 65W PD Charger",
+                "Apple 20W USB-C Power Adapter",
+                "Samsung 25W USB-C Fast Charging Wall Charger",
+                "Belkin Boost Charge 18W",
+                "AUKEY Omnia 100W PD Charger",
+                "Spigen 30W USB-C Power Delivery Charger",
+                "Baseus 65W GaN Charger",
+                "Mophie 60W PD Charger",
+                "UGREEN 100W GaN Charger"
+            ],
+            "potential_manufacturer_names": [
+                "Anker",
+                "RAVPower",
+                "Apple",
+                "Samsung"
+            ],
+            "min_price": 1000,
+            "max_price": 8000
+        },
+        {
+            "product_name": "Graphics Card",
+            "potential_names": [
+                "NVIDIA GeForce RTX 3080",
+                "AMD Radeon RX 6800 XT",
+                "NVIDIA GeForce RTX 3060 Ti",
+                "AMD Radeon RX 6700 XT",
+                "NVIDIA GeForce RTX 3090",
+                "AMD Radeon RX 6900 XT",
+                "NVIDIA GeForce GTX 1660 Super",
+                "NVIDIA GeForce RTX 3070",
+                "AMD Radeon RX 6600 XT",
+                "NVIDIA GeForce RTX 2080 Ti"
+            ],
+            "potential_manufacturer_names": [
+                "NVIDIA",
+                "AMD",
+                "MSI",
+                "ASUS"
+            ],
+            "min_price": 30000,
+            "max_price": 200000
+        },
+        {
+            "product_name": "Keyboard",
+            "potential_names": [
+                "Logitech MX Keys",
+                "Corsair K95 RGB Platinum XT",
+                "Razer BlackWidow Elite",
+                "SteelSeries Apex Pro",
+                "Das Keyboard 4 Professional",
+                "Apple Magic Keyboard",
+                "Microsoft Surface Keyboard",
+                "HyperX Alloy FPS Pro",
+                "Keychron K2 Wireless",
+                "Cooler Master MK730"
+            ],
+            "potential_manufacturer_names": [
+                "Logitech",
+                "Corsair",
+                "Razer",
+                "SteelSeries"
+            ],
+            "min_price": 3000,
+            "max_price": 15000
+        },
+        {
+            "product_name": "Tablet",
+            "potential_names": [
+                "Apple iPad Pro",
+                "Samsung Galaxy Tab S7",
+                "Microsoft Surface Pro 7",
+                "Amazon Fire HD 10",
+                "Lenovo Tab P11 Pro",
+                "Huawei MatePad Pro",
+                "Asus ZenPad 3S 10",
+                "Sony Xperia Z4 Tablet",
+                "Google Pixel Slate",
+                "Xiaomi Mi Pad 5"
+            ],
+            "potential_manufacturer_names": [
+                "Apple",
+                "Samsung",
+                "Microsoft",
+                "Amazon"
+            ],
+            "min_price": 15000,
+            "max_price": 100000
+        },
+        {
+            "product_name": "Processor",
+            "potential_names": [
+                "Intel Core i9-11900K",
+                "AMD Ryzen 9 5900X",
+                "Intel Core i7-11700K",
+                "AMD Ryzen 7 5800X",
+                "Intel Core i5-11600K",
+                "AMD Ryzen 5 5600X",
+                "Intel Core i3-10100F",
+                "AMD Ryzen 3 3300X",
+                "Intel Core i9-10900K",
+                "AMD Ryzen 9 3950X"
+            ],
+            "potential_manufacturer_names": [
+                "Intel",
+                "AMD",
+                "Qualcomm",
+                "Apple"
+            ],
+            "min_price": 10000,
+            "max_price": 60000
+        }
+    ]
+}

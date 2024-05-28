@@ -1,0 +1,140 @@
+{
+    "size": 15,
+    "boxes": [
+        {
+            "type": "electronics",
+            "id": 79477,
+            "product_name": "Processor",
+            "full_product_name": "Intel Core i3-10100F",
+            "manufacturer_name": "Intel",
+            "price": 37961,
+            "product_count": 2
+        },
+        {
+            "type": "electronics",
+            "id": 80930,
+            "product_name": "Tablet",
+            "full_product_name": "Samsung Galaxy Tab S7",
+            "manufacturer_name": "Microsoft",
+            "price": 90798,
+            "product_count": 10
+        },
+        {
+            "type": "electronics",
+            "id": 76813,
+            "product_name": "Keyboard",
+            "full_product_name": "Razer BlackWidow Elite",
+            "manufacturer_name": "Logitech",
+            "price": 3784,
+            "product_count": 3
+        },
+        {
+            "type": "electronics",
+            "id": 62774,
+            "product_name": "Laptop",
+            "full_product_name": "Microsoft Surface Laptop 4",
+            "manufacturer_name": "Dell",
+            "price": 180059,
+            "product_count": 6
+        },
+        {
+            "type": "electronics",
+            "id": 26405,
+            "product_name": "Processor",
+            "full_product_name": "AMD Ryzen 7 5800X",
+            "manufacturer_name": "AMD",
+            "price": 20180,
+            "product_count": 14
+        },
+        {
+            "type": "electronics",
+            "id": 38135,
+            "product_name": "Earphones",
+            "full_product_name": "Jabra Elite 75t",
+            "manufacturer_name": "Jabra",
+            "price": 5939,
+            "product_count": 19
+        },
+        {
+            "type": "electronics",
+            "id": 99498,
+            "product_name": "Smartphone",
+            "full_product_name": "Xiaomi Mi 11 Ultra",
+            "manufacturer_name": "Apple",
+            "price": 73796,
+            "product_count": 9
+        },
+        {
+            "type": "electronics",
+            "id": 97272,
+            "product_name": "Graphics Card",
+            "full_product_name": "NVIDIA GeForce RTX 3060 Ti",
+            "manufacturer_name": "AMD",
+            "price": 146688,
+            "product_count": 8
+        },
+        {
+            "type": "electronics",
+            "id": 18841,
+            "product_name": "Earphones",
+            "full_product_name": "Apple AirPods Pro",
+            "manufacturer_name": "Sony",
+            "price": 15242,
+            "product_count": 12
+        },
+        {
+            "type": "electronics",
+            "id": 33837,
+            "product_name": "Smartphone",
+            "full_product_name": "Huawei P50 Pro",
+            "manufacturer_name": "Google",
+            "price": 112542,
+            "product_count": 10
+        },
+        {
+            "type": "electronics",
+            "id": 12923,
+            "product_name": "Charger",
+            "full_product_name": "RAVPower 65W PD Charger",
+            "manufacturer_name": "Apple",
+            "price": 5278,
+            "product_count": 19
+        },
+        {
+            "type": "electronics",
+            "id": 32421,
+            "product_name": "Mouse",
+            "full_product_name": "Microsoft Arc Mouse",
+            "manufacturer_name": "Logitech",
+            "price": 6117,
+            "product_count": 6
+        },
+        {
+            "type": "electronics",
+            "id": 41982,
+            "product_name": "Graphics Card",
+            "full_product_name": "NVIDIA GeForce GTX 1660 Super",
+            "manufacturer_name": "ASUS",
+            "price": 163323,
+            "product_count": 12
+        },
+        {
+            "type": "electronics",
+            "id": 45510,
+            "product_name": "Graphics Card",
+            "full_product_name": "NVIDIA GeForce RTX 3070",
+            "manufacturer_name": "ASUS",
+            "price": 92407,
+            "product_count": 16
+        },
+        {
+            "type": "industrial",
+            "id": 93060,
+            "product_name": "Safety Gloves",
+            "full_product_name": "Kimberly-Clark Kleenguard G10 Gloves",
+            "manufacturer_name": "3M",
+            "price": 1672,
+            "product_count": 10
+        }
+    ]
+}
