@@ -3,6 +3,5 @@ from Delivery import Delivery
 
 delivery = Delivery()
 
-delivery.dump_to_file(
-    delivery.create_delivery(15, "electronics", "industrial"), "example_output.json"
-)
+boxes = delivery.create_delivery(20, "electronics", "industrial")
+delivery.dump_to_file(boxes, "delivery3.json")

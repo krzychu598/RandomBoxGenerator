@@ -42,7 +42,8 @@ class Delivery:
 
     def create_delivery(self, size: int, type1, type2="", type3=""):
         boxes = []
-        out_data = {"size": size, "boxes": boxes}
+        sizes = {"size": size}
+        out_data = {"size": sizes, "boxes": boxes}
 
         in_data = self.get_from_json(f"ProductTypes/{type1}.json")
         min1_count = int(in_data.get("min_count", 0))
@@ -56,23 +57,26 @@ class Delivery:
             in_data2 = self.get_from_json(f"ProductTypes/{type2}.json")
             min2_count = int(in_data2.get("min_count", 0))
             max2_count = int(in_data2.get("max_count", 0))
-
             type1_num = random.randrange(size // 2, size)
-            if type3 != "":
-                in_data3 = self.get_from_json(f"ProductTypes/{type3}.json")
-                min3_count = int(in_data3.get("min_count", 0))
-                max3_count = int(in_data3.get("max_count", 0))
 
-                type2_num = random.randrange(type1_num, size)
-                type3_num = size - type1_num - type2_num
-            else:
-                type2_num = size - type1_num
+        if type3 != "":
+            in_data3 = self.get_from_json(f"ProductTypes/{type3}.json")
+            min3_count = int(in_data3.get("min_count", 0))
+            max3_count = int(in_data3.get("max_count", 0))
 
+            type2_num = random.randrange(type1_num, size)
+            type3_num = size - type1_num - type2_num
+        else:
+            type2_num = size - type1_num
+
+        sizes[f"{type1}"] = type1_num
         boxes += self.get_boxes(in_data, type1, type1_num, min1_count, max1_count)
         if type2 != "":
+            sizes[f"{type2}"] = type2_num
             boxes += self.get_boxes(in_data2, type2, type2_num, min2_count, max2_count)
 
             if type3 != "":
+                sizes[f"{type3}"] = type3_num
                 boxes += self.get_boxes(
                     in_data3, type2, type3_num, min3_count, max3_count
                 )
